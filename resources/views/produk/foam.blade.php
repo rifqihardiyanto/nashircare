@@ -1,7 +1,8 @@
 @extends('produk.layout.index')
-@section('container')    
+
+@section('container')
     <!-- ==========Page Header Section Starts Here========== -->
-    <div class="pageheader">
+    {{-- <div class="pageheader">
         <div class="container">
             <div class="pageheader__content">
                 <h3>Shop Details</h3>
@@ -13,7 +14,7 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- ==========Page Header Section Ends Here========== -->
 
 
@@ -35,9 +36,8 @@
                                             <img src="images/shop/01.jpg" alt="rajibraj">
                                         </div>
                                     </div>
-                                    <div class="nav-link" id="thumbTwo-tab" data-bs-toggle="pill"
-                                        data-bs-target="#thumbTwo" role="tab" aria-controls="thumbTwo"
-                                        aria-selected="false">
+                                    <div class="nav-link" id="thumbTwo-tab" data-bs-toggle="pill" data-bs-target="#thumbTwo"
+                                        role="tab" aria-controls="thumbTwo" aria-selected="false">
                                         <div class="thumb">
                                             <img src="{{ asset('images/shop/02.jpg') }}" alt="rajibraj">
                                         </div>
@@ -99,12 +99,15 @@
                                 <span><i class="fa-solid fa-star"></i></span>
                                 <a href="#reviews">(4 customer reviews)</a>
                             </div> --}}
-                            <p>Basic straight fit cotton t-shirt with a v-neckline ecologically grown cotton is produced
-                                using practice that help usto protect biodversty basic straight fit cotton</p>
+                            <p>Nashir Foam adalah sabun yang diformulasi khusus untuk mengatasi keluhan ambeien/wasir. Mengandung bahan berkualitas yang diolah secara modern menggunakan teknologi tinggi dan sudah teruji klinis.
+                            </p>
+                            <br>Manfaat
                             <ul>
-                                <li>Digital project planning and resourcing</li>
-                                <li>In-House digital consulting</li>
-                                <li>Permanent and contract recruitement</li>
+                                <li>Mengurangi pembengkakan pada ambeien atau wasir</li>
+                                <li>Mengurangi iritasi pada ambeien atau wasir</li>
+                                <li>Mengurangi rasa nyeri</li>
+                                <li>Meningkatkan kebersihan area anus</li>
+                                <li> Meningkatkan penyembuhan luka pada kulit area anus</li>
                             </ul>
                             <div class="countadd">
                                 {{-- <div class="cart-plus-minus">

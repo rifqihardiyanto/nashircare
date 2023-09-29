@@ -2,7 +2,7 @@
 
 @section('container')
     <!-- ==========Page Header Section Starts Here========== -->
-    <div class="pageheader">
+    {{-- <div class="pageheader">
         <div class="container">
             <div class="pageheader__content">
                 <h3>Shop Details</h3>
@@ -14,7 +14,7 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- ==========Page Header Section Ends Here========== -->
 
 
@@ -99,12 +99,18 @@
                                 <span><i class="fa-solid fa-star"></i></span>
                                 <a href="#reviews">(4 customer reviews)</a>
                             </div> --}}
-                            <p>Basic straight fit cotton t-shirt with a v-neckline ecologically grown cotton is produced
-                                using practice that help usto protect biodversty basic straight fit cotton</p>
+                            <p>Nashir Oil adalah minyak yang diformulasi khusus untuk mengatasi keluhan ambeien/wasir. Mengandung bahan berkualitas yang diolah secara modern menggunakan teknologi tinggi dan sudah teruji klinis.
+                            </p>
+                            <br>Manfaat
                             <ul>
-                                <li>Digital project planning and resourcing</li>
-                                <li>In-House digital consulting</li>
-                                <li>Permanent and contract recruitement</li>
+                                <li>Mengurangi pembengkakan dan rasa gatal</li>
+                                <li>Mempercepat penyembuhan luka</li>
+                                <li>Mengurangi rasa nyeri</li>
+                                <li>Mengempeskan benjolan ambeien atau wasir</li>
+                                <li>Meredakan peradangan pada kulit</li>
+                                <li>Mengurangi iritasi kulit sekitar anus</li>
+                                <li>Meredakan nyeri saat BAB</li>
+                                <li>Memperkuat mukosa anus</li>
                             </ul>
                             <div class="countadd">
                                 {{-- <div class="cart-plus-minus">

@@ -16,7 +16,7 @@
                             {{-- <li><a href="contact.html">Contact</a></li> --}}
                         </ul>
                         <div class="header__btn">
-                            <a href="appointment.html" class="lab-btn">Appointment Now</a>
+                            <a href="https://shopee.co.id/nashir_official_store" target="_blank" class="lab-btn">Shop</a>
                         </div>
                     </div>
                     <div class="header__bararea">

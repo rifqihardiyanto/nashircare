@@ -1,9 +1,8 @@
-    @extends('produk.layout.index')
+@extends('produk.layout.index')
 
-    @section('container')
-    
+@section('container')
     <!-- ==========Page Header Section Starts Here========== -->
-    <div class="pageheader">
+    {{-- <div class="pageheader">
         <div class="container">
             <div class="pageheader__content">
                 <h3>Shop Details</h3>
@@ -15,7 +14,7 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- ==========Page Header Section Ends Here========== -->
 
 
@@ -37,9 +36,8 @@
                                             <img src="images/shop/01.jpg" alt="rajibraj">
                                         </div>
                                     </div>
-                                    <div class="nav-link" id="thumbTwo-tab" data-bs-toggle="pill"
-                                        data-bs-target="#thumbTwo" role="tab" aria-controls="thumbTwo"
-                                        aria-selected="false">
+                                    <div class="nav-link" id="thumbTwo-tab" data-bs-toggle="pill" data-bs-target="#thumbTwo"
+                                        role="tab" aria-controls="thumbTwo" aria-selected="false">
                                         <div class="thumb">
                                             <img src="{{ asset('images/shop/02.jpg') }}" alt="rajibraj">
                                         </div>
@@ -90,7 +88,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="singlecontent">
-                            <h4>Nashir Kapsul</h4>
+                            <h4>Nashir Capsule</h4>
                             {{-- <h6><span>Price:</span> $290.99</h6>
                             <div class="rating">
                                 <p>raing:</p>
@@ -101,12 +99,15 @@
                                 <span><i class="fa-solid fa-star"></i></span>
                                 <a href="#reviews">(4 customer reviews)</a>
                             </div> --}}
-                            <p>Basic straight fit cotton t-shirt with a v-neckline ecologically grown cotton is produced
-                                using practice that help usto protect biodversty basic straight fit cotton</p>
+                            <p>Nashir Capsule adalah kapsul yang diformulasi khusus untuk mengatasi keluhan ambeien/wasir. Mengandung bahan berkualitas yang diolah secara modern menggunakan teknologi tinggi dan sudah teruji klinis.
+                            </p>
+                            <br>Manfaat
                             <ul>
-                                <li>Digital project planning and resourcing</li>
-                                <li>In-House digital consulting</li>
-                                <li>Permanent and contract recruitement</li>
+                                <li>Sebagai antiradang</li>
+                                <li>Melunakkan tinja atau mengatasi sembelit</li>
+                                <li>Sebagai antiinflamasi dan antibakteri </li>
+                                <li>Meningkatkan kebersihan area anus</li>
+                                <li>Mengurangi iritasi pada ambeien/wasir</li>
                             </ul>
                             <div class="countadd">
                                 {{-- <div class="cart-plus-minus">
@@ -380,5 +381,4 @@
         </div>
     </div> --}}
     <!-- ==========Newsletters Section Ends Here========== -->
-
-    @endsection
+@endsection

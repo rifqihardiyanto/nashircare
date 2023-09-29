@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- x-icon -->
-    <link rel="shortcut icon" href="css/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('css/favicon.png') }}" type="{{ asset('image/x-icon') }}">
 
     <!-- Other css -->
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
@@ -45,13 +45,13 @@
                     <div class="menu">
                         <ul>
                             <li><a href="#home" class="active">Home</a></li>
-                            <li><a href="#benefit">Benefits</a></li>
-                            <li><a href="#htu">How to use</a></li>
-                            <li><a href="#product">Other Product</a></li>
-                            <li><a href="#review">Review</a></li>
+                            <li><a href="#product">Product</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#benefit">Benefit</a></li>
+                            {{-- <li><a href="#review">Review</a></li> --}}
                         </ul>
                         <div class="header__btn">
-                            <a href="shop.html" class="lab-btn">Shop Now</a>
+                            <a href="https://shopee.co.id/nashir_official_store" target="_blank" class="lab-btn">Shop Now</a>
                         </div>
                     </div>
                     <div class="header__bararea">
@@ -91,15 +91,15 @@
                 <div class="row align-items-center g-4">
                     <div class="col-lg-6 col-12">
                         <div class="banner__content wow fadeInUp" data-wow-delay=".6s">
-                            <h3>Natural & Organic</h3>
-                            <h2>Skin <span>Care Product For</span> Health</h2>
-                            <p>Conveniently customize proactive web services for leveraged without continualliery aggregate fricctionle ou wellies richard.and very customize  continually.</p>
-                            <a href="shop.html" class="lab-btn">Shop Now</a>
+                            <h3>Mencari Peluang Bisnis dengan Modal Minimal Tapi Hasil Maksimal?</h3>
+                            <h2>Jadi <span>Distributor </span>Nashir Jawabannya!</h2>
+                            <p>Produk Kesehatan yang Teruji klinis dan Dipercaya Masyarakat Indonesia</p>
+                            <a href="https://shopee.co.id/nashir_official_store" target="_blank" class="lab-btn">Shop Now</a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-12">   
                         <div class="banner__thumb wow fadeInUp" data-wow-delay=".7s">
-                            <img src="images/banner/01.png" alt="rajibraj">
+                            <img src="{{ asset('images/new/home.png') }}" alt="rajibraj">
                         </div>
                     </div>
                 </div>
@@ -112,8 +112,8 @@
     <div class="product padding-tb" id="product">
         <div class="container">
             <div class="section__header text-center wow fadeInUp" data-wow-delay=".5s">
-                <h3>Our Haldaa <span>skincare Product</span></h3>
-                <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p>
+                <h3>Our Nashir <span> Product</span></h3>
+                <p>Inilah Produk yang Akan Mendatangkan Keuntungan bagi Anda!</p>
             </div>
             <div class="section__wrapper">
                 <div class="row g-4 justify-content-center">
@@ -123,18 +123,7 @@
                                 <a href="shop-single.html"><img src="images/product/01.png" alt="rajibraj"></a>
                             </div>
                             <div class="product__content">
-                                {{-- <div class="product__rating">
-                                    <ul>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><span>( 5 reviews )</span></li>
-                                    </ul>
-                                </div> --}}
                                 <h5><a href="shop-single.html">Nashir Foam</a></h5>
-                                {{-- <span class="product__price">$257.35</span> --}}
                                 <a href="{{ url('nashir-foam') }}" class="lab-btn bg-transparate">Detail Produk</a>
                             </div>
                         </div>
@@ -145,18 +134,7 @@
                                 <a href="shop-single.html"><img src="images/product/02.png" alt="rajibraj"></a>
                             </div>
                             <div class="product__content">
-                                {{-- <div class="product__rating">
-                                    <ul>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><span>( 5 reviews )</span></li>
-                                    </ul>
-                                </div> --}}
-                                <h5><a href="shop-single.html">Nashir Kapsul</a></h5>
-                                {{-- <span class="product__price">$257.35</span> --}}
+                                <h5><a href="shop-single.html">Nashir Capsule</a></h5>
                                 <a href="{{ url('nashir-kapsul') }}" class="lab-btn bg-transparate">Detail Produk</a>
                             </div>
                         </div>
@@ -167,44 +145,23 @@
                                 <a href="shop-single.html"><img src="images/product/03.png" alt="rajibraj"></a>
                             </div>
                             <div class="product__content">
-                                {{-- <div class="product__rating">
-                                    <ul>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><span>( 5 reviews )</span></li>
-                                    </ul>
-                                </div> --}}
                                 <h5><a href="shop-single.html">Nashir Oil</a></h5>
-                                {{-- <span class="product__price">$257.35</span> --}}
                                 <a href="{{ url('nashir-oil') }}" class="lab-btn bg-transparate">Detail Produk</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 wow fadeInUp" data-wow-delay=".8s">
+                    {{-- <div class="col-xl-3 col-lg-4 col-sm-6 col-12 wow fadeInUp" data-wow-delay=".8s">
                         <div class="product__item">
                             <div class="product__thumb">
                                 <a href="shop-single.html"><img src="images/product/04.png" alt="rajibraj"></a>
                             </div>
                             <div class="product__content">
-                                {{-- <div class="product__rating">
-                                    <ul>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><i class="icofont-ui-rating"></i></li>
-                                        <li><span>( 5 reviews )</span></li>
-                                    </ul>
-                                </div> --}}
+                                
                                 <h5><a href="shop-single.html">Nashir Salep</a></h5>
-                                {{-- <span class="product__price">$257.35</span> --}}
                                 <a href="{{ url('nashir-salep') }}" class="lab-btn bg-transparate">Detail Produk</a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -214,20 +171,20 @@
 
 
     <!-- ==========About Section Starts Here========== -->
-    <div class="about about--one bg-img" style="background-image: url(images/bg/01.jpg)">
+    <div class="about about--one bg-img" style="{{ asset('images/new/back2.png') }}" id="about">
         <div class="container">
             <div class="row g-5 justify-content-center align-items-center">
                 <div class="col-lg-6 col-12">
                     <div class="about__content wow fadeInLeft" data-wow-delay=".5s">
-                        <h3>Glowing skin is a <span>result of proper</span> skin care</h3>
-                        <p>Continually productize compelling quality for packed with  elated productize compelling quality for packed in  with all elated Them Setting up to website and creating pages.</p>
-                        <p>Continually productize compelling quality for packed with  elated productize compelling quality for packed in with all elated Them aroductize compelling quality for packed in  with all elated Them Setting up to website and creating pages.</p>
+                        <h3>PROUDLY PRESENT <span>NASHIR </span> Carrying for a Better Life</h3>
+                        <p>Brand kesehatan yang berfokus pada perawatan ambeien. Diformulasi dengan teknologi mutakhir untuk mengatasi keluhan seperti benjolan, nyeri, gatal, dan pendarahan.</p>
+                        <p>Ambeien adalah masalah kesehatan yang berisiko tinggi terhadap kualitas hidup penderitanya. Bahkan, 12,5 juta pendudukan Indonesia terkonfirmasi menderita ambeien. Sayangnya, tingkat kesadaran penderita justru tidak sepadan dengan bahaya yang mengintai.</p>
                         <a href="shop.html" class="lab-btn">Shop Now</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="about__thumb text-center text-lg-end wow fadeInUp" data-wow-delay=".5s">
-                        <img src="images/about/01.png" alt="rajibraj">
+                        <img src="{{ asset('images/new/second2.png') }}" alt="rajibraj">
                     </div>
                 </div>
             </div>
@@ -241,8 +198,8 @@
     <div class="care padding-tb" id="benefit">
         <div class="container">
             <div class="section__header text-center wow fadeInUp" data-wow-delay=".5s">
-                <h3>Best benefits of <span>Haldaa skincare</span></h3>
-                <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p>
+                <h3>Apa Saja Keuntungannya?</h3>
+                {{-- <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p> --}}
             </div>
             <div class="section__wrapper">
                 <div class="row g-4">
@@ -253,8 +210,8 @@
                                     <img src="images/care/icon/01.png" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
-                                    <h5>Environmental Impact</h5>
-                                    <p>Conveniently and proacveu nique and ideasy use producton.</p>
+                                    <h5>✔ Profit Besar</h5>
+                                    {{-- <p>Conveniently and proacveu nique and ideasy use producton.</p> --}}
                                 </div>
                             </li>
                             <li class=" wow fadeInLeft" data-wow-delay=".6s">
@@ -262,8 +219,8 @@
                                     <img src="images/care/icon/02.png" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
-                                    <h5>No Internal Side Effects</h5>
-                                    <p>Conveniently and proacveu nique and ideasy use producton.</p>
+                                    <h5>✔ Produk Berkualitas
+                                    </h5>
                                 </div>
                             </li>
                             <li class=" wow fadeInLeft" data-wow-delay=".7s">
@@ -271,15 +228,15 @@
                                     <img src="images/care/icon/03.png" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
-                                    <h5>Lack of Artificial Smell</h5>
-                                    <p>Conveniently and proacveu nique and ideasy use producton.</p>
+                                    <h5>✔ Dukungan Marketing
+                                    </h5>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <div class="col-xl-4 d-none d-xl-block">
                         <div class="care__thumb text-center wow fadeInUp" data-wow-delay=".5s">
-                            <img src="images/care/01.png" alt="rajibraj">
+                            <img src="{{ asset('images/new/3.png') }}" alt="rajibraj">
                         </div>
                     </div>
                     <div class="col-xl-4 col-sm-6 col-12">
@@ -289,8 +246,8 @@
                                     <img src="images/care/icon/04.png" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
-                                    <h5>No Skin Irritation</h5>
-                                    <p>Conveniently and proacveu nique and ideasy use producton.</p>
+                                    <h5>✔ Support Konten Berupa Video dan Foto
+                                    </h5>
                                 </div>
                             </li>
                             <li class=" wow fadeInRight" data-wow-delay=".6s">
@@ -298,8 +255,8 @@
                                     <img src="images/care/icon/05.png" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
-                                    <h5>Exceeding Standards</h5>
-                                    <p>Conveniently and proacveu nique and ideasy use producton.</p>
+                                    <h5>✔ Saingan Minim
+                                    </h5>
                                 </div>
                             </li>
                             <li class=" wow fadeInRight" data-wow-delay=".7s">
@@ -307,8 +264,7 @@
                                     <img src="images/care/icon/06.png" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
-                                    <h5>Real Results</h5>
-                                    <p>Conveniently and proacveu nique and ideasy use producton.</p>
+                                    <h5>✔ Potensi Repeat Order Tinggi</h5>
                                 </div>
                             </li>
                         </ul>
@@ -538,22 +494,22 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="footer__about">
                             <div class="footer__title wow fadeInUp" data-wow-delay=".5s">
-                                <h5>Haldaa</h5>
+                                <h5>NashirCare</h5>
                             </div>
                             <div class="footer__body wow fadeInUp" data-wow-delay=".5s">
-                                <p>Aliquam pellentesque pellentese neque vitae elementum.</p>
+                                <p>Carrying for a Better Life</p>
                                 <ul>
-                                    <li>
+                                    {{-- <li>
                                         <div class="icon"><i class="icofont-phone"></i></div>
                                         <div class="text">+(141 - 589 - 548 - 656</div>
-                                    </li>
+                                    </li> --}}
                                     <li>
                                         <div class="icon"><i class="icofont-envelope"></i></div>
-                                        <div class="text">infohaldaa@gmail.com</div>
+                                        <div class="text">official@nashircare.id</div>
                                     </li>
                                     <li>
                                         <div class="icon"><i class="icofont-google-map"></i></div>
-                                        <div class="text">Birkbeck Court, Birkbeck Rd, London W3 6BQ, UK</div>
+                                        <div class="text">Jl. Palagan Tentara Pelajar No.KM 08, Karang Moko, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</div>
                                     </li>
                                 </ul>
                             </div>
@@ -566,11 +522,9 @@
                             </div>
                             <div class="footer__body wow fadeInUp" data-wow-delay=".5s">
                                 <ul>
-                                    <li><a href="#">Ladies Shampoo</a></li>
-                                    <li><a href="#">Care Drop</a></li>
-                                    <li><a href="#">Silver Spray</a></li>
-                                    <li><a href="#">himalaya</a></li>
-                                    <li><a href="#">olay</a></li>
+                                    <li><a href="#">Nashir Foam</a></li>
+                                    <li><a href="#">Nashir Oil</a></li>
+                                    <li><a href="#">Nashir Capsule</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -582,11 +536,11 @@
                             </div>
                             <div class="footer__body wow fadeInUp" data-wow-delay=".5s">
                                 <ul>
-                                    <li><a href="#">Benefits</a></li>
-                                    <li><a href="#">How to use</a></li>
-                                    <li><a href="#">Other Product</a></li>
-                                    <li><a href="#">Review</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Tiktok</a></li>
+                                    <li><a href="#">Shoppe</a></li>
+                                    <li><a href="#">Tokopedia</a></li>
+                                    <li><a href="#">Bukalapak</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -594,15 +548,14 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="footer__product">
                             <div class="footer__title wow fadeInUp" data-wow-delay=".5s">
-                                <h5>We Sell on</h5>
+                                <h5>Menu</h5>
                             </div>
                             <div class="footer__body wow fadeInUp" data-wow-delay=".5s">
                                 <ul>
-                                    <li><a href="#">Walmart.com</a></li>
-                                    <li><a href="#">Amazon.com</a></li>
-                                    <li><a href="#">Ebay.com</a></li>
-                                    <li><a href="#">alibaba.com</a></li>
-                                    <li><a href="#">ali Express.com</a></li>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Product</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Benefit</a></li>
                                 </ul>
                             </div>
                         </div>
