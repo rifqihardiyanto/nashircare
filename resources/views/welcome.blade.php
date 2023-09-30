@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- x-icon -->
-    <link rel="shortcut icon" href="{{ asset('css/favicon.png') }}" type="{{ asset('image/x-icon') }}">
+    <link rel="shortcut icon" href="{{ asset('images/new/logo.png') }}" type="{{ asset('image/x-icon') }}">
 
     <!-- Other css -->
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
@@ -206,7 +206,7 @@
                         <ul>
                             <li class=" wow fadeInLeft" data-wow-delay=".5s">
                                 <div class="care__icon">
-                                    <img src="images/care/icon/01.png" alt="rajibraj">
+                                    <img src="{{ asset('images/new/Profitbesar.png') }}" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
                                     <h5>✔ Profit Besar</h5>
@@ -215,7 +215,7 @@
                             </li>
                             <li class=" wow fadeInLeft" data-wow-delay=".6s">
                                 <div class="care__icon">
-                                    <img src="images/care/icon/02.png" alt="rajibraj">
+                                    <img src="{{ asset('images/new/berkualitas.png') }}" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
                                     <h5>✔ Produk Berkualitas
@@ -224,7 +224,7 @@
                             </li>
                             <li class=" wow fadeInLeft" data-wow-delay=".7s">
                                 <div class="care__icon">
-                                    <img src="images/care/icon/03.png" alt="rajibraj">
+                                    <img src="{{ asset('images/new/dukunganmarketing.png') }}" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
                                     <h5>✔ Dukungan Marketing
@@ -242,7 +242,7 @@
                         <ul>
                             <li class=" wow fadeInRight" data-wow-delay=".5s">
                                 <div class="care__icon">
-                                    <img src="images/care/icon/04.png" alt="rajibraj">
+                                    <img src="{{ asset('images/new/content.png') }}" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
                                     <h5>✔ Support Konten Berupa Video dan Foto
@@ -251,7 +251,7 @@
                             </li>
                             <li class=" wow fadeInRight" data-wow-delay=".6s">
                                 <div class="care__icon">
-                                    <img src="images/care/icon/05.png" alt="rajibraj">
+                                    <img src="{{ asset('images/new/competitor.png') }}" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
                                     <h5>✔ Saingan Minim
@@ -260,7 +260,7 @@
                             </li>
                             <li class=" wow fadeInRight" data-wow-delay=".7s">
                                 <div class="care__icon">
-                                    <img src="images/care/icon/06.png" alt="rajibraj">
+                                    <img src="{{ asset('images/new/repeat.png') }}" alt="rajibraj">
                                 </div>
                                 <div class="care__content">
                                     <h5>✔ Potensi Repeat Order Tinggi</h5>
