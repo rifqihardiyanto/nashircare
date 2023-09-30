@@ -33,27 +33,27 @@
                                         data-bs-target="#thumbOne" role="tab" aria-controls="thumbOne"
                                         aria-selected="true">
                                         <div class="thumb">
-                                            <img src="images/shop/01.jpg" alt="rajibraj">
+                                            <img src="{{ asset('images/produk/foam1.png') }}" alt="rajibraj">
                                         </div>
                                     </div>
                                     <div class="nav-link" id="thumbTwo-tab" data-bs-toggle="pill" data-bs-target="#thumbTwo"
                                         role="tab" aria-controls="thumbTwo" aria-selected="false">
                                         <div class="thumb">
-                                            <img src="{{ asset('images/shop/02.jpg') }}" alt="rajibraj">
+                                            <img src="{{ asset('images/produk/foam2.png') }}" alt="rajibraj">
                                         </div>
                                     </div>
                                     <div class="nav-link" id="thumbThree-tab" data-bs-toggle="pill"
                                         data-bs-target="#thumbThree" role="tab" aria-controls="thumbThree"
                                         aria-selected="false">
                                         <div class="thumb">
-                                            <img src="{{ asset('images/shop/03.jpg') }}" alt="rajibraj">
+                                            <img src="{{ asset('images/produk/foam3.png') }}" alt="rajibraj">
                                         </div>
                                     </div>
                                     <div class="nav-link" id="thumbFour-tab" data-bs-toggle="pill"
                                         data-bs-target="#thumbFour" role="tab" aria-controls="thumbFour"
                                         aria-selected="false">
                                         <div class="thumb">
-                                            <img src="{{ asset('images/shop/04.jpg') }}" alt="rajibraj">
+                                            <img src="{{ asset('images/produk/foam4.png') }}" alt="rajibraj">
                                         </div>
                                     </div>
                                 </div>
@@ -61,25 +61,25 @@
                                     <div class="tab-pane fade show active" id="thumbOne" role="tabpanel"
                                         aria-labelledby="thumbOne-tab">
                                         <div class="thumb">
-                                            <img src="{{ asset('images/shop/01.jpg') }}" alt="rajibraj">
+                                            <img src="{{ asset('images/produk/foam1.png') }}" alt="rajibraj">
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="thumbTwo" role="tabpanel"
                                         aria-labelledby="thumbTwo-tab">
                                         <div class="thumb">
-                                            <img src="{{ asset('images/shop/02.jpg') }}" alt="rajibraj">
+                                            <img src="{{ asset('images/produk/foam2.png') }}" alt="rajibraj">
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="thumbThree" role="tabpanel"
                                         aria-labelledby="thumbThree-tab">
                                         <div class="thumb">
-                                            <img src="{{ asset('images/shop/03.jpg') }}" alt="rajibraj">
+                                            <img src="{{ asset('images/produk/foam3.png') }}" alt="rajibraj">
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="thumbFour" role="tabpanel"
                                         aria-labelledby="thumbFour-tab">
                                         <div class="thumb">
-                                            <img src="{{ asset('images/shop/04.jpg') }}" alt="rajibraj">
+                                            <img src="{{ asset('images/produk/foam4.png') }}" alt="rajibraj">
                                         </div>
                                     </div>
                                 </div>

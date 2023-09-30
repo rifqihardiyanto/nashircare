@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{ asset('css/lightcase.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <title>nashircare</title>
+    <title>NashirCare</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
         <div class="container">
             <div class="area">
                 <div class="logo">
-                    <a href="index.html">Nashircare</a>
+                    <a href="{{ url('/') }}">NashirCare</a>
                 </div>
                 <div class="main-menu">
                     <div class="menu">
@@ -120,10 +120,10 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6 col-12 wow fadeInUp" data-wow-delay=".5s">
                         <div class="product__item">
                             <div class="product__thumb">
-                                <a href="shop-single.html"><img src="images/product/01.png" alt="rajibraj"></a>
+                                <a href="{{ url('nashir-foam') }}"><img src="{{ asset('images/produk/foam1.png') }}" alt="rajibraj"></a>
                             </div>
                             <div class="product__content">
-                                <h5><a href="shop-single.html">Nashir Foam</a></h5>
+                                <h5><a href="{{ url('nashir-foam') }}">Nashir Foam</a></h5>
                                 <a href="{{ url('nashir-foam') }}" class="lab-btn bg-transparate">Detail Produk</a>
                             </div>
                         </div>
@@ -131,7 +131,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6 col-12 wow fadeInUp" data-wow-delay=".6s">
                         <div class="product__item">
                             <div class="product__thumb">
-                                <a href="shop-single.html"><img src="images/product/02.png" alt="rajibraj"></a>
+                                <a href="{{ url('nashir-kapsul') }}"><img src="{{ asset('images/produk/kapsul1.png') }}" alt="rajibraj"></a>
                             </div>
                             <div class="product__content">
                                 <h5><a href="shop-single.html">Nashir Capsule</a></h5>
@@ -139,29 +139,29 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 wow fadeInUp" data-wow-delay=".6s">
+                    {{-- <div class="col-xl-3 col-lg-4 col-sm-6 col-12 wow fadeInUp" data-wow-delay=".6s">
                         <div class="product__item">
                             <div class="product__thumb">
-                                <a href="shop-single.html"><img src="images/product/03.png" alt="rajibraj"></a>
+                                <a href="{{ url('nashir-oil') }}"><img src="images/product/03.png" alt="rajibraj"></a>
                             </div>
                             <div class="product__content">
-                                <h5><a href="shop-single.html">Nashir Oil</a></h5>
+                                <h5><a href="{{ url('nashir-oil') }}">Nashir Oil</a></h5>
                                 <a href="{{ url('nashir-oil') }}" class="lab-btn bg-transparate">Detail Produk</a>
                             </div>
                         </div>
-                    </div>
-                    {{-- <div class="col-xl-3 col-lg-4 col-sm-6 col-12 wow fadeInUp" data-wow-delay=".8s">
+                    </div> --}}
+                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 wow fadeInUp" data-wow-delay=".8s">
                         <div class="product__item">
                             <div class="product__thumb">
-                                <a href="shop-single.html"><img src="images/product/04.png" alt="rajibraj"></a>
+                                <a href="{{ url('nashir-cream') }}"><img src="{{ asset('images/produk/cream1.png') }}" alt="rajibraj"></a>
                             </div>
                             <div class="product__content">
                                 
-                                <h5><a href="shop-single.html">Nashir Salep</a></h5>
-                                <a href="{{ url('nashir-salep') }}" class="lab-btn bg-transparate">Detail Produk</a>
+                                <h5><a href="{{ url('nashir-cream') }}">Nashir Cream</a></h5>
+                                <a href="{{ url('nashir-cream') }}" class="lab-btn bg-transparate">Detail Produk</a>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
                 </div>
             </div>
         </div>
@@ -179,7 +179,6 @@
                         <h3>PROUDLY PRESENT <span>NASHIR </span> Carrying for a Better Life</h3>
                         <p>Brand kesehatan yang berfokus pada perawatan ambeien. Diformulasi dengan teknologi mutakhir untuk mengatasi keluhan seperti benjolan, nyeri, gatal, dan pendarahan.</p>
                         <p>Ambeien adalah masalah kesehatan yang berisiko tinggi terhadap kualitas hidup penderitanya. Bahkan, 12,5 juta pendudukan Indonesia terkonfirmasi menderita ambeien. Sayangnya, tingkat kesadaran penderita justru tidak sepadan dengan bahaya yang mengintai.</p>
-                        <a href="shop.html" class="lab-btn">Shop Now</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -277,13 +276,12 @@
 
 
     <!-- ==========How to use Section Starts Here========== -->
-    <div class="htu padding-tb bg-img" style="background-image: url(images/bg/02.jpg);" id="htu">
+    {{-- <div class="htu padding-tb bg-img" style="background-image: url(images/bg/02.jpg);" id="htu">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-6 col-12 offset-lg-6">
                     <div class="htu__content w-100 wow fadeInUp" data-wow-delay=".5s">
-                        <h3>How to use our <span>skincare Product</span></h3>
-                        <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p>
+                        <h3>MENGAPA HARUS <span>NASHIR?</span></h3>
                     </div>
                     <div class="htu__lists">
                         <ul>
@@ -292,8 +290,7 @@
                                     <img src="images/htu/icon/01.png" alt="rajibraj">
                                 </div>
                                 <div class="htu__content">
-                                    <h5>Wash face with warm water</h5>
-                                    <p>Conveniently and proacveu nique and ideasy use producton.</p>
+                                    <h5>Masyarakat Indonesia Lebih Percaya dengan Pengobatan Alternatif Selain Operasi</h5>
                                 </div>
                             </li>
                             <li class=" wow fadeInLeft" data-wow-delay=".6s">
@@ -301,8 +298,7 @@
                                     <img src="images/htu/icon/02.png" alt="rajibraj">
                                 </div>
                                 <div class="htu__content">
-                                    <h5>Apply cream on face</h5>
-                                    <p>Conveniently and proacveu nique and ideasy use producton.</p>
+                                    <h5>Produk Perawatan Ambeien Tetap Dibutuhkan Meskipun Penderita Sudah Sembuh</h5>
                                 </div>
                             </li>
                             <li class=" wow fadeInLeft" data-wow-delay=".7s">
@@ -310,8 +306,7 @@
                                     <img src="images/htu/icon/03.png" alt="rajibraj">
                                 </div>
                                 <div class="htu__content">
-                                    <h5>Wait 10 mins and wash</h5>
-                                    <p>Conveniently and proacveu nique and ideasy use producton.</p>
+                                    <h5>Ketersediaan 4 Varian Nashir Mampu Mengatasi Ambeien Sesuai Kebutuhan Konsumen</h5>
                                 </div>
                             </li>
                         </ul>
@@ -319,7 +314,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- ==========How to use Section Ends Here========== -->
 
 
@@ -403,9 +398,9 @@
             <div class="row g-4">
                 <div class="col-lg-6 col-12 offset-lg-6">
                     <div class="offer__content wow fadeInUp" data-wow-delay=".5s">
-                        <h2>Buy Now And <span>Get 40% Off</span> on Your First Purchase !</h2>
-                        <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p>
-                        <a href="shop.html" class="lab-btn">Shop Now</a>
+                        <h2>GABUNG <span>SEGERA!</span> </h2>
+                        <p>Dapatkan Keuntungan hingga Puluhan Juta Setiap Harinya! <br>Jangan Lewatkan Kesempatan Menjadi Pebisnis Sukses Bersama Kami!</p>
+                        <a href="{{ url('https://wa.me/625602977911') }}" class="lab-btn">Join Now</a>
                     </div>
                 </div>
             </div>
@@ -414,7 +409,7 @@
     <!-- ==========Offer Section Ends Here========== -->
 
     <!-- ==========Feature Section Starts Here========== -->
-    <div class="feature padding-tb">
+    {{-- <div class="feature padding-tb">
         <div class="container">
             <div class="feature__area wow fadeInUp" data-wow-delay=".5s">
                 <div class="row g-4 justify-content-center">
@@ -461,7 +456,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- ==========Feature Section Ends Here========== -->
 
 
@@ -523,7 +518,7 @@
                             <div class="footer__body wow fadeInUp" data-wow-delay=".5s">
                                 <ul>
                                     <li><a href="#">Nashir Foam</a></li>
-                                    <li><a href="#">Nashir Oil</a></li>
+                                    <li><a href="#">Nashir Cream</a></li>
                                     <li><a href="#">Nashir Capsule</a></li>
                                 </ul>
                             </div>
@@ -536,11 +531,11 @@
                             </div>
                             <div class="footer__body wow fadeInUp" data-wow-delay=".5s">
                                 <ul>
-                                    <li><a href="#">Instagram</a></li>
-                                    <li><a href="#">Tiktok</a></li>
-                                    <li><a href="#">Shoppe</a></li>
-                                    <li><a href="#">Tokopedia</a></li>
-                                    <li><a href="#">Bukalapak</a></li>
+                                    <li><a href="https://instagram.com/nashircare.id?igshid=MzRlODBiNWFlZA==" target="_blank">Instagram</a></li>
+                                    <li><a href="https://www.tiktok.com/@nashircare.id" target="_blank">Tiktok</a></li>
+                                    <li><a href="https://shopee.co.id/nashir_official_store" target="_blank">Shoppe</a></li>
+                                    <li><a href="https://www.tokopedia.com/nashircareofficialstore" target="_blank">Tokopedia</a></li>
+                                    <li><a href="https://www.bukalapak.com/u/nashircare_official_sto_762735" target="_blank">Bukalapak</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -552,10 +547,10 @@
                             </div>
                             <div class="footer__body wow fadeInUp" data-wow-delay=".5s">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Product</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Benefit</a></li>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#product">Product</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#benefit">Benefit</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -565,7 +560,7 @@
         </div>
         <div class="footer__bottom wow fadeInUp" data-wow-delay=".5s">
             <div class="container">
-                <p>&copy; 2023 <a href="index.html">Haldaa</a> all Right Reserved by <a href="https://themeforest.net/user/codexcoder" target="_blank">CodexCoder</a></p>
+                <p>&copy; 2023 <a href="{{ url('/') }}">NashirCare</a></p>
             </div>
         </div>
     </footer>

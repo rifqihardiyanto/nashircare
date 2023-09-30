@@ -27,6 +27,6 @@ Route::get('/nashir-kapsul', function () {
 Route::get('/nashir-oil', function () {
     return view('produk.oil');
 });
-Route::get('/nashir-salep', function () {
+Route::get('/nashir-cream', function () {
     return view('produk.salep');
 });
