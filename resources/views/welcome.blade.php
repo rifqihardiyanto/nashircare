@@ -400,7 +400,7 @@
                     <div class="offer__content wow fadeInUp" data-wow-delay=".5s">
                         <h2>GABUNG <span>SEGERA!</span> </h2>
                         <p>Dapatkan Keuntungan hingga Puluhan Juta Setiap Harinya! <br>Jangan Lewatkan Kesempatan Menjadi Pebisnis Sukses Bersama Kami!</p>
-                        <a href="{{ url('https://wa.me/625602977911') }}" class="lab-btn">Join Now</a>
+                        <a href="{{ url('https://wa.me/6285176897688') }}" class="lab-btn">Join Now</a>
                     </div>
                 </div>
             </div>
@@ -494,10 +494,10 @@
                             <div class="footer__body wow fadeInUp" data-wow-delay=".5s">
                                 <p>Carrying for a Better Life</p>
                                 <ul>
-                                    {{-- <li>
+                                    <li>
                                         <div class="icon"><i class="icofont-phone"></i></div>
-                                        <div class="text">+(141 - 589 - 548 - 656</div>
-                                    </li> --}}
+                                        <div class="text">+6285176897688</div>
+                                    </li>
                                     <li>
                                         <div class="icon"><i class="icofont-envelope"></i></div>
                                         <div class="text">official@nashircare.id</div>
