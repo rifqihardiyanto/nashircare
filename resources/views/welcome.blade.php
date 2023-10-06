@@ -99,7 +99,7 @@
                     </div>
                     <div class="col-lg-6 col-12">   
                         <div class="banner__thumb wow fadeInUp" data-wow-delay=".7s">
-                            <img src="{{ asset('images/new/home.png') }}" alt="rajibraj">
+                            <img src="{{ asset('images/new/newhome.png') }}" alt="rajibraj">
                         </div>
                     </div>
                 </div>
